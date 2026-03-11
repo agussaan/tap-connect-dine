@@ -4,7 +4,6 @@ import HowItWorks from "@/components/HowItWorks";
 import Features from "@/components/Features";
 import Pricing from "@/components/Pricing";
 import Benefits from "@/components/Benefits";
-
 import FAQ from "@/components/FAQ";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
@@ -18,7 +17,6 @@ const Index = () => {
       <Features />
       <Benefits />
       <Pricing />
-      
       <FAQ />
       <CTASection />
       <Footer />
