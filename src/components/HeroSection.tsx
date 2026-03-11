@@ -19,10 +19,12 @@ const HeroSection = () => {
 						digital, mesas y comunicación con los clientes mediante códigos QR.
 					</p>
 					<div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-						<Button variant="hero" size="xl">
-							<a href="https://w.app/fij1pn">Solicitar demo</a>
-							<ArrowRight className="ml-1" />
-						</Button>
+						<a href="https://w.app/fij1pn">
+							<Button variant="hero" size="xl">
+								Solicitar demo
+								<ArrowRight className="ml-1" />
+							</Button>
+						</a>
 					</div>
 					<p className="text-sm font-body text-muted-foreground">
 						Tappealo ayuda a los restaurantes a mejorar la experiencia del
