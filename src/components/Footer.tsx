@@ -1,4 +1,4 @@
-import logo from "@/assets/tappealo-logo.jpeg";
+import logo from "@/assets/tappealo-logo.png";
 
 const Footer = () => {
   return (
@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-3">
-            <img src={logo} alt="Tappealo" className="h-8 rounded" />
+            <img src={logo} alt="Tappealo" className="h-10 rounded" />
             <span className="font-body text-sm text-muted-foreground">El sistema digital para restaurantes</span>
           </div>
           <div className="flex gap-6 font-body text-sm text-muted-foreground">

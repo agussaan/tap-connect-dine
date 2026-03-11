@@ -1,7 +1,7 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/tappealo-logo.jpeg";
+import logo from "@/assets/tappealo-logo.png";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -17,7 +17,7 @@ const Navbar = () => {
 		<nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
 			<div className="container mx-auto flex items-center justify-between h-16 px-4">
 				<a href="#" className="flex items-center gap-2">
-					<img src={logo} alt="Tappealo" className="h-8 w-auto rounded" />
+					<img src={logo} alt="Tappealo" className="h-20 w-auto rounded" />
 				</a>
 
 				<div className="hidden md:flex items-center gap-8">
