@@ -33,9 +33,11 @@ const Navbar = () => {
 				</div>
 
 				<div className="hidden md:block">
-					<Button variant="hero" size="default">
-						<a href="https://w.app/fij1pn">Solicitar demo</a>
-					</Button>
+					<a href="https://w.app/fij1pn">
+						<Button variant="hero" size="default">
+							Solicitar demo
+						</Button>
+					</a>
 				</div>
 
 				<button
@@ -58,9 +60,11 @@ const Navbar = () => {
 							{l.label}
 						</a>
 					))}
-					<Button variant="hero" size="default" className="w-full mt-2">
-						<a href="https://w.app/fij1pn">Solicitar demo</a>
-					</Button>
+					<a href="https://w.app/fij1pn">
+						<Button variant="hero" size="default" className="w-full mt-2">
+							Solicitar demo
+						</Button>
+					</a>
 				</div>
 			)}
 		</nav>

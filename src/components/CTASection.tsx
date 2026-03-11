@@ -21,10 +21,12 @@ const CTASection = () => {
 					Descubrí cómo Tappealo puede mejorar la experiencia de tus clientes y
 					optimizar tu operación.
 				</p>
-				<Button variant="hero" size="xl">
-					<a href="https://w.app/fij1pn">Solicitar demo</a>
-					<ArrowRight className="ml-1" />
-				</Button>
+				<a href="https://w.app/fij1pn">
+					<Button variant="hero" size="xl">
+						Solicitar demo
+						<ArrowRight className="ml-1" />
+					</Button>
+				</a>
 			</div>
 		</section>
 	);

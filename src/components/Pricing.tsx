@@ -105,7 +105,7 @@ const Pricing = () => {
 									</li>
 								))}
 							</ul>
-
+              <a href="https://w.app/fij1pn">
 							<Button
 								variant={p.highlighted ? "heroOutline" : "hero"}
 								size="lg"
@@ -115,8 +115,9 @@ const Pricing = () => {
 										: ""
 								}
 							>
-								<a href="https://w.app/fij1pn">Solicitar demo</a>
+								Solicitar demo
 							</Button>
+              </a>
 						</div>
 					))}
 				</div>
