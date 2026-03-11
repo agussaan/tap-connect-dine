@@ -12,8 +12,21 @@ export default {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      display: ['DM Serif Display', 'serif'],
+      body: ['DM Sans', 'sans-serif'],
+    },
     extend: {
       colors: {
+        warm: {
+          50: 'hsl(40 33% 97%)',
+          100: 'hsl(35 30% 92%)',
+          200: 'hsl(30 25% 85%)',
+          300: 'hsl(28 30% 70%)',
+          400: 'hsl(30 70% 45%)',
+          500: 'hsl(25 50% 28%)',
+          600: 'hsl(25 50% 20%)',
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
