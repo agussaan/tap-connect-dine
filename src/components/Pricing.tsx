@@ -13,14 +13,14 @@ const plans = [
     name: "Plan Pro",
     price: "249",
     desc: "Hasta 20 mesas",
-    features: ["Todo del Plan Básico", "Hasta 20 mesas", "Carga con Excel", "Comunicación cliente", "Soporte prioritario"],
+    features: ["Todo del Plan Básico", "Hasta 20 mesas", "Soporte prioritario"],
     highlighted: true,
   },
   {
     name: "Plan Premium",
     price: "379",
     desc: "Más de 20 mesas",
-    features: ["Todo del Plan Pro", "Mesas ilimitadas", "Funciones avanzadas", "Soporte dedicado", "Personalización"],
+    features: ["Todo del Plan Pro", "Mesas ilimitadas", "Soporte dedicado"],
     highlighted: false,
   },
 ];
